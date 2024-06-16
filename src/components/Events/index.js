@@ -82,7 +82,7 @@ class Events extends Component {
           <EventItem
             key={eachEvent.id}
             eventDetails={eachEvent}
-            setActiveEventId={this.ActiveEventId}
+            setActiveEventId={this.setActiveEventId}
             isActive={eachEvent.id === activeEventId}
           />
         ))}
